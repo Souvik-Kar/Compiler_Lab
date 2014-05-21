@@ -121,7 +121,7 @@ int main(int argc, char** argv) {
     int index;
     getgrammar();
     printgrammar();
-    cout<<"Enter Rule number to remove left recursion from: ";
+    cout<<"Enter Rule No. to remove left recursion from: ";
     cin>>index;
     remImmediateLeftRecursion(index);
     printgrammar();
